@@ -1,0 +1,9 @@
+folders:
+    raw: "data/01_raw"
+    int: "data/02_intermediate"
+    pri: "data/03_primary"
+    fea: "data/04_feature"
+    m_inp: "data/05_model_input"
+    mod: "data/06_models"
+    m_out: "data/07_model_output"
+    rep: "data/08_reporting"

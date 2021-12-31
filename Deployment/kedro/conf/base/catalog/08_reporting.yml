@@ -1,0 +1,16 @@
+
+top_10_best_game:
+  type: pandas.CSVDataSet
+  filepath: "${folders.rep}/top_10_best_game.csv"
+
+top_10_worst_game:
+  type: pandas.CSVDataSet
+  filepath: "${folders.rep}/top_10_worst_game.csv"
+
+top_10_best_game_company:
+  type: pandas.CSVDataSet
+  filepath: "${folders.rep}/top_10_best_game_company.csv"
+
+top_10_worst_game_company:
+  type: pandas.CSVDataSet
+  filepath: "${folders.rep}/top_10_worst_game_company.csv"

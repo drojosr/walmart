@@ -1,0 +1,7 @@
+consoles:
+  type: pandas.CSVDataSet
+  filepath: "${folders.raw}/consoles.csv"
+
+result:
+  type: pandas.CSVDataSet
+  filepath: "${folders.raw}/result.csv"

@@ -1,0 +1,8 @@
+
+result_refined:
+  type: pandas.CSVDataSet
+  filepath: "${folders.int}/result_refined.csv"
+
+result_consoles:
+  type: pandas.CSVDataSet
+  filepath: "${folders.int}/resultConsoles.csv"
