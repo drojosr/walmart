@@ -1,3 +1,19 @@
+# Resume
+Hello Mariano.
+Along with saying hello, I commented that this challenge was very entertaining, so thank you very much for the opportunity.
+Now I will give you a summary of how I approached the problem:
+
+Thinking that an ETL solution is needed for the Analytics area, I used the Kedro framework which is created in Python and is perfect for developing ML projects. Here's a little description:
+
+* [Introducing Kedro: The Open Source Library for Production-Ready Machine Learning Code](https://medium.com/quantumblack/introducing-kedro-the-open-source-library-for-production-ready-machine-learning-code-d1c6d26ce2cf)
+
+The basic architecture of kedro consists of three types of objects:
+ 1) A "catalog" is a source of information that can be a GCP Bucket, CSV, Parquet, JSON, BigQuery Table and others, which    you declare in a YML file.
+2) A "node" is the function where you will use the catalogs as inputs and outputs.
+3) And finally a "pipeline" is the grouping of several nodes.
+
+
+
 # Data Engineer - Challenge
 This is the Basic Challenge for Data Engineers. 
 
